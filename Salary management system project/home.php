@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TSmart</title>
+    <link rel="stylesheet" href="home.css">
+    
+    <script src="https://kit.fontawesome.com/c1e7a1738f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="full-page">
+        <div class="navbar">
+        <ul style="text-align: left;" type="none">
+            <li><h1 style="color: turquoise; text-align:left;font-size:50px;text-decoration:none"><p11 style="color: rgb(0, 217, 255);border: 2px solid rgb(152, 250, 61);border-right:0;border-radius:30px">T</p11><p11 style="color: rgb(161, 235, 14);border: 2px solid rgb(152, 250, 61);border-radius:30px;border-left:0;">S</p11><p11 style="color:rgb(14, 235, 143);border-radius:100px;border-top: 2px solid rgb(152, 250, 61);">mart</p11></h1></li>
+            </ul>
+            <nav>
+           
+                <ul id='MenuItems'>
+                
+                    <li><a href='home.php'><i class="fas fa-home"></i> Home</a></li>                 
+                    <li><a href='#'><i class="fas fa-shopping-cart"></i>  Shopping</a></li>
+                    <li><a href='#'><i class="far fa-paper-plane"></i> Apply Now</a></li>
+                    <li><a href='#'><i class="fas fa-phone-alt"></i> Contact</a></li>
+                    <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;"><i class="fas fa-sign-in-alt"></i> Login</button></li>
+                    <li><a href='#'><i class="fa fa-user"></i> About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id='login-form' class='login-page'>
+            <div class="form-box">
+
+
+                <form action="login.php"  method="POST" id='login' class='input-group-login' name="form" onsubmit="return validated()">
+                    <p3>
+                        <h1 style="border: 0;">Employee Login</h1>
+                    </p3>
+                    <br/><br/>
+                    
+                    <?php
+                    $username=filter_input(INPUT_POST,'username');
+                    $password=filter_input(INPUT_POST,'password');
+                    
+                    if(isset($_GET['error'])==true){
+                    echo'<p7 align="left" style="font-weight: ;color:red;display:inline;font-size:115%">username or password is incorrect</p7>';
+                    setcookie('username',$username,'password',$password,mktime(1)+2);
+                                }
+                    ?>
+                    <?php
+                    if(isset($_GET['success'])==true){
+                        echo'<p8 align="left" style="font-weight: ;color:rgb(0, 255, 0);display:inline;font-size:115%">Registration Successfull</p8>';
+                    }  
+                    ?>
+                    
+                    <input type='email' name="username" class='input-field' placeholder='Email' autocomplete="on" required>
+                    <input type='password' name="password" class='input-field' placeholder='Password' autocomplete="off" required>
+                    <input type='checkbox' name="remember" class='check-box' id="remember"><span>Remember Password</span>
+                    <button type='submit' class='submit-btn'>Log in</button><br/>
+                    <p2> <a href='#'>Forgotten Password</a></p2>
+                    <br/> <br/>
+                    <p>No Account? <a href="SignUphtml.php">SignUp</a></p>
+                </form>
+
+
+            </div>
+        </div>
+
+        <script>
+            var modal = document.getElementById('login-form');
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            
+        </script>
+        <script src="login.js"></script>
+</body>
+
+</html>

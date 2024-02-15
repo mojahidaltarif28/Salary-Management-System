@@ -1,0 +1,76 @@
+.account-setting {
+    margin-left: 30px;
+    margin-top: 0px;
+    align-content: center;
+}
+
+.account-setting-form {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-bottom: 700px;
+    width: 500px;
+    height: cover;
+    position: left;
+    background: black;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-bottom: 35px;
+    padding-right: 20px;
+    overflow: hidden;
+    color: black;
+    border: 2px solid rgb(0, 255, 0);
+    border-top: 0;
+    border-radius: 5px;
+}
+
+#show-account {
+    display: none;
+}
+
+.input {
+    width: 80%;
+    padding: 8px 5px;
+    margin: 10px 30px;
+    border: 0;
+    outline: none;
+    background: white;
+    font-size: 120%;
+    color: black;
+    align-content: center;
+    align-self: center;
+    border-radius: 4px;
+}
+
+.input1 {
+    width: 80%;
+    padding: 8px 5px;
+    margin: 10px 30px;
+    border: 0;
+    outline: none;
+    background: white;
+    font-size: 120%;
+    color: black;
+    align-content: center;
+    align-self: center;
+    border-radius: 4px;
+}
+
+.submit-s {
+    width: 20%;
+    padding: 5px 5px;
+    cursor: pointer;
+    background: rgb(6, 238, 37);
+    font-size: 150%;
+    color: white;
+    margin-top: 10px;
+    margin-left: 260px;
+    border: 0;
+    border-radius: 5px;
+    border-left: 0;
+    border-right: 0;
+    font-style: italic;
+}
+
+.submit-s:hover {
+    opacity: 0.8;
+}

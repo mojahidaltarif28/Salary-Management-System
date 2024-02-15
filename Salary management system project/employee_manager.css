@@ -1,0 +1,267 @@
+.option_all_form {
+    border: 2px solid rgb(0, 255, 0);
+    border-left: 0;
+    border-radius: 10px;
+    height: 520px;
+    width: 800px;
+    display: show;
+    background-color: rgb(0, 0, 0);
+    color: honeydew;
+    display: none;
+}
+
+#employee {
+    display: show;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+body {
+    font-family: arial;
+    background: #02b2c9;
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    width: cover;
+    margin: 0 auto;
+    background: rgb(0, 140, 255);
+    font-size: 19px;
+}
+
+#header {
+    background: #0b0c0caf;
+    border-radius: 10px;
+}
+
+h1 {
+    float: left;
+    margin: 15px;
+}
+
+#search-bar {
+    padding: 10px 20px 0;
+    float: right;
+}
+
+#search-bar label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+
+#search-bar input {
+    width: 250px;
+    height: 25px;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+#search-bar input:focus {
+    outline: 0;
+}
+
+#table-form {
+    background: none;
+    padding: 20px 10px;
+}
+
+#table-form input[type="text"] {
+    width: 180px;
+    height: 25px;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: 1px solid green;
+}
+
+#table-data {
+    padding: 15px;
+    height: 400px;
+    vertical-align: top;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+#table-data th {
+    background: #049ef7fb !important;
+}
+
+#table-data tr:nth-child(odd) {
+    background: rgb(221, 214, 214);
+    font-size: 20px;
+}
+
+#table-data tr:nth-child(even) {
+    background: white;
+    font-size: 20px;
+}
+
+.name {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+#success-message {
+    background: #DEF1D8;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#error-message {
+    background: #EFDCDD;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: #fff;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.edit-btn {
+    background: #27ae60;
+    color: white;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#modal {
+    background: none;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 210%;
+    height: 250%;
+    display: none;
+}
+
+#modal-form {
+    background: rgb(0, 140, 255);
+    width: 20%;
+    height: 70px;
+    position: relative;
+    top: 20%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 80px;
+    background-color: rgb(6, 58, 100);
+    border: 0;
+    padding-bottom: 50px;
+}
+
+#modal-form table {
+    border: 0;
+    width: 480px;
+}
+
+#modal-form table tr {
+    font-size: 20px;
+    border: 0;
+}
+
+#modal-form table tr td {
+    background-color: rgb(6, 58, 100);
+    border: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#modal-form h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 0, 200);
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(253, 13, 201);
+}
+
+#modal-form table tbody {
+    border: 0;
+}
+
+#modal-form table tr td input[type="number"] {
+    width: 40%;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: none;
+}
+
+#save-btn {
+    background: #09c256;
+    color: white;
+    border: 0;
+    font-size: 25px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#close-btn {
+    background: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+
+.table-fixed tbody {
+    display: block;
+    height: 380px;
+    width: 700px;
+    overflow-y: auto;
+}
+
+.table-fixed tr {
+    display: cover;
+}
+
+.table-fixed thead {
+    display: block;
+    width: 700px;
+    overflow-y: auto;
+    border: 0;
+}
+
+.table-fixed thead tr th {
+    width: 200px;
+    border: 0;
+}

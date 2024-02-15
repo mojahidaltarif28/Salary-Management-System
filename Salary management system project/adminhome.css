@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-page {
+    height: 1200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/blacksky.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    position: static;
+    overflow: hidden;
+}
+
+.navbar {
+    text-align: right;
+    background: black;
+    border: none;
+    border-bottom: 2px solid rgb(0, 255, 0);
+    border-right: 2px solid rgb(0, 255, 0);
+    border-left: 2px solid rgb(0, 255, 0);
+    border-radius: 5px;
+    /* border-top: 2px solid rgb(0, 255, 0);
+     margin-left: 378px;
+    border-top: 2px solid rgb(0, 255, 0);
+    border-right: 2px solid rgb(0, 255, 0);*/
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.navbar ul li {
+    width: 80px;
+    margin-right: 35px;
+    padding: 0px;
+}
+
+.navbar ul li:hover {
+    color: rgb(4, 157, 252);
+}
+
+.a1 {
+    font-size: 25px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    font-family: sans-serif;
+    border-top: 2px solid rgb(4, 157, 252);
+    border-bottom: 2px solid rgb(4, 157, 252);
+    border-right: 0;
+    border-left: 0;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.a1:hover {
+    color: rgb(4, 157, 252);
+}
+
+.a1::after {
+    color: rgb(4, 157, 252);
+}
+
+.option ul {
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.option ul li {
+    margin-top: 25px;
+    width: cover;
+}
+
+.option-form {
+    text-align: center;
+    margin-top: 8px;
+    width: 500px;
+    height: cover;
+    position: left;
+    background: black;
+    overflow: hidden;
+    color: black;
+    border-top: 2px solid rgb(0, 255, 0);
+    border-right: 2px solid rgb(0, 255, 0);
+    border-bottom: 2px solid rgb(0, 255, 0);
+    border-radius: 5px;
+}
+
+#menu-form {
+    display: none;
+}
+
+.menu-btn {
+    background: none;
+    color: transparent;
+    size: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+i {
+    color: white;
+    padding: 10px 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: none;
+}
+
+i:hover {
+    opacity: 0.8;
+}
+
+.nav-menu {
+    background: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+i3 {
+    color: white;
+    background: transparent;
+    background-size: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+i3:hover {
+    color: rgb(4, 157, 252);
+}
+
+i2 {
+    color: white;
+    background: transparent;
+    background-size: 15px;
+    font-size: 60px;
+    cursor: pointer;
+    border: 1px solid rgb(8, 243, 8);
+    border-radius: 50px;
+}
+
+.display {
+    position: relative;
+    text-align: left;
+    display: inline-flex;
+    font-style: italic;
+    margin-left: 10px;
+    padding-top: 10px;
+    align-self: left;
+    color: white;
+    font-size: 20px;
+}
+
+.p8 {
+    color: rgb(189, 23, 23);
+}
+
+.display:hover {
+    color: rgb(0, 174, 255);
+}
+
+.i5 {
+    color: white;
+    background: transparent;
+    background-size: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+i5:hover {
+    color: rgb(4, 157, 252);
+}
+
+.sub-user-menu {
+    display: none;
+    text-align: center;
+    position: center;
+}
+
+.navbar ul li:hover .sub-user-menu {
+    display: block;
+    position: fixed;
+    background: black;
+    width: cover;
+    height: cover;
+    border: 2px solid rgb(4, 157, 252);
+    border-radius: 10px;
+}
+
+.navbar ul li:hover .sub-user-menu ul {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.btn-sub-menu-user-profile {
+    font-style: oblique;
+    font-size: 25px;
+    color: white;
+    background: none;
+    border: none;
+    width: 90px;
+    margin-top: 35px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-top: 2px solid rgb(4, 157, 252);
+    border-bottom: 2px solid rgb(4, 157, 252);
+}
+
+.btn-sub-menu-user-profile:hover {
+    color: rgb(4, 157, 252);
+}
+
+p9 {
+    color: rgb(4, 157, 252);
+    font-style: normal;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    border-top: 2px solid rgb(4, 157, 252);
+    border-bottom: 2px solid rgb(4, 157, 252);
+}
+
+p9:hover {
+    color: none;
+}
+
+.sub-logout {
+    display: none;
+    text-align: center;
+    position: center;
+}
+
+.navbar ul li:hover .sub-logout {
+    display: block;
+    position: fixed;
+    background: none;
+    width: cover;
+    height: cover;
+    border: none;
+    color: rgb(4, 157, 252);
+}
+
+.navbar ul li:hover .sub-logout ul {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+p10 {
+    color: white;
+}
+
+p10:hover {
+    color: white;
+}
+
+.active,
+.navbar ul li:hover {
+    color: rgb(4, 157, 252);
+}

@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fullpage {
+    height: 1100px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.096)), url(images/UpdateSalary13.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: relative;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 1px;
+}
+
+.headline {
+    margin: 0 30px;
+    color: rgb(3, 223, 3);
+    font-weight: bold;
+    font-size: 150%;
+    font: sans-serif;
+    border-bottom: 4px solid rgb(139, 196, 7);
+    text-align: left;
+}
+
+.form-box {
+    width: 950px;
+    height: cover;
+    margin: 2% auto;
+    background: rgba(0, 0, 0, 0.753);
+    padding: 10px;
+    overflow: hidden;
+    border: 2px solid rgb(2, 247, 2);
+    border-radius: 10px;
+}
+
+.input-field {
+    width: 80%;
+    padding: 8px 5px;
+    margin: 10px 30px;
+    border-left: 3px solid #999;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 3px solid #999;
+    outline: none;
+    background: transparent;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+    align-content: center;
+    align-self: center;
+    box-shadow: 1px 1px 2px 1px gray;
+}
+
+.registration-field {
+    columns: 2;
+    row-gap: 2;
+    ruby-overhang: auto;
+    column-width: 60px;
+}
+
+::placeholder {
+    color: rgb(7, 204, 253);
+    padding: 3px 2px 2px 0px;
+}
+
+.dob {
+    margin: 0 0px;
+    width: 95%;
+    color: white;
+    font-family: bold;
+    font-size: 110%;
+    background: transparent;
+    border-top: 0;
+    border-left: 3px solid #999;
+    border-bottom: 3px solid#999;
+    border-right: 0;
+    padding: 3px 2px 2px 0px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 1px gray;
+}
+
+.ld {
+    margin: 0 30px;
+    color: rgb(7, 204, 253);
+    font-size: 110%;
+    font-weight: bold;
+}
+
+p1 {
+    margin-left: 30px;
+    margin-right: 5px;
+    color: rgb(7, 204, 253);
+    font-size: 140%;
+    font-weight: bold;
+}
+
+p2 {
+    color: rgb(11, 247, 102);
+    font-size: 130%;
+    font-weight: bold;
+    font: sans-serif;
+    position: relative;
+}
+
+.radio {
+    height: 18px;
+    width: 18px;
+    padding: 0 0 0 0;
+    cursor: pointer;
+}
+
+.submit-btn {
+    font: sans-serif;
+    width: 15%;
+    padding: 10px 13px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: rgb(4, 167, 4);
+    border: 0;
+    outline: none;
+    border-radius: 2px;
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+    margin-right: 130px;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+.image1 {
+    margin-left: 30px;
+    color: rgb(7, 204, 253);
+    font-size: 120%;
+    font-weight: bold;
+    padding: 0 0 2px 0;
+}
+
+.image {
+    margin-left: 30px;
+    color: white;
+    font-size: 100%;
+    border: 2px solid #999;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 1px gray;
+}
+
+.display {
+    margin-left: 5px;
+    border: none;
+    color: transparen;
+    position: relative;
+    background-position: relative;
+    text-align: center;
+    color: thistle;
+    padding-top: 20px;
+    cursor: zoom-in;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(233, 4, 4);
+    padding-left: 0;
+    right: 100px;
+    font-weight: bold;
+}
+
+a:hover {
+    opacity: 0.8;
+    color: cornflowerblue;
+}
+
+i3:hover {
+    color: cornflowerblue;
+}
+
+input-group-register.not_match {
+    color: rgb(233, 4, 4);
+    margin: 0 30px;
+}
