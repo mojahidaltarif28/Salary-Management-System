@@ -24,4 +24,4 @@ The project involves a responsive and interactive user interface, providing user
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/web-based-project.git
+   git clone https://github.com/mojahidaltarif28/Salary-Management-System.git
